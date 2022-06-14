@@ -2,7 +2,7 @@ name: truc
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   Greetings:
     runs-on: ubuntu-latest
