@@ -1,5 +1,8 @@
 name: truc
-on: [push]
+on:
+  push:
+    branches:
+      - master
 jobs:
   Greetings:
     runs-on: ubuntu-latest
