@@ -1,10 +1,12 @@
-name: My first action
-on:
-  push:
-    branches:
-      - master
 jobs:
   Greetings:
     runs-on: ubuntu-latest
-    - uses: actions/checkout@v2
-    - run: echo "Hello world!"
+    steps:
+      -
+        run: "echo \"Hello world!\""
+    uses: actions/checkout@v2
+name: "My first action"
+true:
+  push:
+    branches:
+      - master
