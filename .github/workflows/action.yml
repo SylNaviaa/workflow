@@ -3,14 +3,13 @@ on:
   push:
     branches:
       - main
-jobs:
-  Greetings:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: echo "Hello World!"
-      - run: mkdir plop && ls > log.txt && mv log.txt ./plop/ && cd plop && ls
-
+##jobs:
+##  Greetings:
+##    runs-on: ubuntu-latest
+##    steps:
+##      - uses: actions/checkout@v2
+##      - run: echo "Hello World!"
+##      - run: mkdir plop && ls > log.txt && mv log.txt ./plop/ && cd plop && ls
 jobs:
   Hello_Python:
     runs-on: ubuntu-latest
