@@ -4,7 +4,7 @@ on:
     branches:
       -master
 jobs:
-  Greetings:
+  greetings:
     runs-on: ubuntu-latest
     - uses: actions/checkout@v2
     - run: echo "Hello world!"
